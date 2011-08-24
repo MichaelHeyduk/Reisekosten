@@ -6,9 +6,9 @@
 //  Copyright 2011 ObjectCode GmbH. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "ExportController.h"
 
-@implementation SecondViewController
+@implementation ExportController
 
 /*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
