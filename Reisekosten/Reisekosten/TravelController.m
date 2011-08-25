@@ -9,6 +9,8 @@
 #import "TravelController.h"
 
 @implementation TravelController
+@synthesize myTableView;
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -37,6 +39,7 @@
 
 - (void)viewDidUnload
 {
+    [self setMyTableView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -48,4 +51,37 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+
+#pragma mark tableView
+
+- (NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger) section
+{
+	// NSInteger result = (moreResults ? [resultListEntries count] + 1 : [resultListEntries count]); 
+	NSInteger result = 3;
+    NSLog(@"numberOfRowsInSection = %d", result);
+	return result;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *CellIdentifier = @"Cell"; 
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil) {
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+    }
+    
+    if (indexPath.row == 0)
+        cell.textLabel.text = @"Cell 1";
+    if (indexPath.row == 1)
+        cell.textLabel.text = @"Michael";
+    if (indexPath.row == 2)
+        cell.textLabel.text = @"Heyduk";
+    
+	return cell;
+}
+
+- (void)dealloc {
+    [myTableView release];
+    [super dealloc];
+}
 @end

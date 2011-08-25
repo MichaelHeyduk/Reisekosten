@@ -7,7 +7,13 @@
 //
 
 
+#import <UIKit/UIKit.h>
 
-@interface TravelController : UIViewController
+@interface TravelController : UIViewController<UITableViewDataSource> {
+    
+    UITableView *myTableView;
+}
+
+@property (nonatomic, retain) IBOutlet UITableView *myTableView;
 
 @end

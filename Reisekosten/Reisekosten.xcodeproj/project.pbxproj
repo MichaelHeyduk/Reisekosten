@@ -18,6 +18,7 @@
 		FFA9E5EE1405248700B97ECC /* TravelController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA9E5EC1405248700B97ECC /* TravelController.m */; };
 		FFA9E5EF1405248700B97ECC /* Travel.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFA9E5ED1405248700B97ECC /* Travel.xib */; };
 		FFA9E5F614052E8900B97ECC /* ExportController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA9E5F514052E8900B97ECC /* ExportController.m */; };
+		FFA9E5FA1406380700B97ECC /* Hints.txt in Resources */ = {isa = PBXBuildFile; fileRef = FFA9E5F91406380700B97ECC /* Hints.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		FFA9E5ED1405248700B97ECC /* Travel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Travel.xib; sourceTree = "<group>"; };
 		FFA9E5F414052E8900B97ECC /* ExportController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExportController.h; sourceTree = "<group>"; };
 		FFA9E5F514052E8900B97ECC /* ExportController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExportController.m; sourceTree = "<group>"; };
+		FFA9E5F91406380700B97ECC /* Hints.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hints.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		FFA9E5C71405195400B97ECC /* Reisekosten */ = {
 			isa = PBXGroup;
 			children = (
+				FFA9E5F81406380700B97ECC /* doc */,
 				FFA9E5D01405195400B97ECC /* ReisekostenAppDelegate.h */,
 				FFA9E5D11405195400B97ECC /* ReisekostenAppDelegate.m */,
 				FFA9E5D31405195400B97ECC /* MainWindow.xib */,
@@ -107,6 +110,14 @@
 				FFA9E5CF1405195400B97ECC /* Reisekosten-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFA9E5F81406380700B97ECC /* doc */ = {
+			isa = PBXGroup;
+			children = (
+				FFA9E5F91406380700B97ECC /* Hints.txt */,
+			);
+			path = doc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +174,7 @@
 				FFA9E5D51405195400B97ECC /* MainWindow.xib in Resources */,
 				FFA9E5E11405195400B97ECC /* Export.xib in Resources */,
 				FFA9E5EF1405248700B97ECC /* Travel.xib in Resources */,
+				FFA9E5FA1406380700B97ECC /* Hints.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
