@@ -12,6 +12,4 @@
     IBOutlet UITableView *travelsTableView;
 }
 
-- (IBAction) buttonPushView:(id)sender;
-
 @end

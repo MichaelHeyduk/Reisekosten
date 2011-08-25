@@ -15,8 +15,6 @@
 		FFA9E5D21405195400B97ECC /* ReisekostenAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA9E5D11405195400B97ECC /* ReisekostenAppDelegate.m */; };
 		FFA9E5D51405195400B97ECC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFA9E5D31405195400B97ECC /* MainWindow.xib */; };
 		FFA9E5E11405195400B97ECC /* Export.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFA9E5DF1405195400B97ECC /* Export.xib */; };
-		FFA9E5EE1405248700B97ECC /* TravelController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA9E5EC1405248700B97ECC /* TravelController.m */; };
-		FFA9E5EF1405248700B97ECC /* Travel.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFA9E5ED1405248700B97ECC /* Travel.xib */; };
 		FFA9E5F614052E8900B97ECC /* ExportController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA9E5F514052E8900B97ECC /* ExportController.m */; };
 		FFA9E5FA1406380700B97ECC /* Hints.txt in Resources */ = {isa = PBXBuildFile; fileRef = FFA9E5F91406380700B97ECC /* Hints.txt */; };
 		FFA9E5FE14063EDD00B97ECC /* Travel2.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFA9E5FB14063EDD00B97ECC /* Travel2.xib */; };
@@ -38,9 +36,6 @@
 		FFA9E5D11405195400B97ECC /* ReisekostenAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReisekostenAppDelegate.m; sourceTree = "<group>"; };
 		FFA9E5D41405195400B97ECC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		FFA9E5E01405195400B97ECC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Export.xib; sourceTree = "<group>"; };
-		FFA9E5EB1405248700B97ECC /* TravelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelController.h; sourceTree = "<group>"; };
-		FFA9E5EC1405248700B97ECC /* TravelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelController.m; sourceTree = "<group>"; };
-		FFA9E5ED1405248700B97ECC /* Travel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Travel.xib; sourceTree = "<group>"; };
 		FFA9E5F414052E8900B97ECC /* ExportController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExportController.h; sourceTree = "<group>"; };
 		FFA9E5F514052E8900B97ECC /* ExportController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExportController.m; sourceTree = "<group>"; };
 		FFA9E5F91406380700B97ECC /* Hints.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hints.txt; sourceTree = "<group>"; };
@@ -103,9 +98,6 @@
 				FFA9E5DF1405195400B97ECC /* Export.xib */,
 				FFA9E5F414052E8900B97ECC /* ExportController.h */,
 				FFA9E5F514052E8900B97ECC /* ExportController.m */,
-				FFA9E5ED1405248700B97ECC /* Travel.xib */,
-				FFA9E5EB1405248700B97ECC /* TravelController.h */,
-				FFA9E5EC1405248700B97ECC /* TravelController.m */,
 				FFA9E5FB14063EDD00B97ECC /* Travel2.xib */,
 				FFA9E5FC14063EDD00B97ECC /* TravelController2.h */,
 				FFA9E5FD14063EDD00B97ECC /* TravelController2.m */,
@@ -189,7 +181,6 @@
 				FFA9E5CC1405195400B97ECC /* InfoPlist.strings in Resources */,
 				FFA9E5D51405195400B97ECC /* MainWindow.xib in Resources */,
 				FFA9E5E11405195400B97ECC /* Export.xib in Resources */,
-				FFA9E5EF1405248700B97ECC /* Travel.xib in Resources */,
 				FFA9E5FA1406380700B97ECC /* Hints.txt in Resources */,
 				FFA9E5FE14063EDD00B97ECC /* Travel2.xib in Resources */,
 				FFA9E60B1406476E00B97ECC /* TravelTableView.xib in Resources */,
@@ -205,7 +196,6 @@
 			files = (
 				FFA9E5CE1405195400B97ECC /* main.m in Sources */,
 				FFA9E5D21405195400B97ECC /* ReisekostenAppDelegate.m in Sources */,
-				FFA9E5EE1405248700B97ECC /* TravelController.m in Sources */,
 				FFA9E5F614052E8900B97ECC /* ExportController.m in Sources */,
 				FFA9E5FF14063EDD00B97ECC /* TravelController2.m in Sources */,
 				FFA9E607140644CB00B97ECC /* TravelTableViewController.m in Sources */,

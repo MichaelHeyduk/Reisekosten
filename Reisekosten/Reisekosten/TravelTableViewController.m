@@ -87,8 +87,4 @@
 }
 
 
-- (IBAction) buttonPushView:(id)sender {
-    [self.navigationController pushViewController:[[UIViewController alloc] init] animated:YES];
-}
-
 @end
