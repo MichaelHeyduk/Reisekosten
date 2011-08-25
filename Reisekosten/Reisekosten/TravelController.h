@@ -9,11 +9,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TravelController : UIViewController<UITableViewDataSource> {
+@interface TravelController : UINavigationController {
     
-    UITableView *myTableView;
 }
-
-@property (nonatomic, retain) IBOutlet UITableView *myTableView;
 
 @end

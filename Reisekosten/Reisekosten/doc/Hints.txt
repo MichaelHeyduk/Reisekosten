@@ -1,3 +1,7 @@
+XCode4: Add NavigationController to TabBarController!
+http://blog.willwinder.com/2011/05/xcode4-uitabbarcontroller-with.html
+--> super!
+
+
 Add TableView to App:
 http://www.youtube.com/watch?v=lI_5xiq4RLQ
-

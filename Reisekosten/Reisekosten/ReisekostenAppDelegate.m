@@ -7,11 +7,13 @@
 //
 
 #import "ReisekostenAppDelegate.h"
+#import "TravelController.h"
 
 @implementation ReisekostenAppDelegate
 
 @synthesize window = _window;
 @synthesize tabBarController = _tabBarController;
+@synthesize travelController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -63,6 +65,7 @@
 
 - (void)dealloc
 {
+    [travelController release];
     [_window release];
     [_tabBarController release];
     [super dealloc];

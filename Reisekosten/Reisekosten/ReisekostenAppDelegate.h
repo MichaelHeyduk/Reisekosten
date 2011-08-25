@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+@class TravelController;
 
 @interface ReisekostenAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate>
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
 @property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;
+@property (nonatomic, retain) IBOutlet TravelController *travelController;
 
 @end
