@@ -6,9 +6,9 @@
 //  Copyright 2011 ObjectCode GmbH. All rights reserved.
 //
 
-#import "TravelController2.h"
+#import "TravelDetailViewController.h"
 
-@implementation TravelController2
+@implementation TravelDetailViewController
 @synthesize myTableView;
 
 

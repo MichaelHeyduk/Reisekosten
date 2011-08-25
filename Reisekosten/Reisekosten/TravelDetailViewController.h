@@ -9,7 +9,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TravelController2 : UIViewController<UITableViewDataSource> {
+@interface TravelDetailViewController : UIViewController<UITableViewDataSource> {
     
     UITableView *myTableView;
 }
