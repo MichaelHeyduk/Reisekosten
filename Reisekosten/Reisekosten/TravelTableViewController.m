@@ -7,8 +7,12 @@
 //
 
 #import "TravelTableViewController.h"
+#import "TravelDetailViewController.h"
+
 
 @implementation TravelTableViewController
+
+@synthesize travelDetailViewController;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -87,9 +91,13 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
 	NSLog(@"didSelectRowAtIndexPath at row %d", [indexPath row]);
-	// NSLog(@"TODO: operate on entry: %@", [resultListEntries objectAtIndex:row]);	
-    [self.navigationController pushViewController:[[UIViewController alloc] init] animated:YES];
-	
+
+    if(self.travelDetailViewController == nil) {
+		TravelDetailViewController *controller = [[TravelDetailViewController alloc] initWithNibName:@"TravelDetail" bundle:nil];
+		self.travelDetailViewController = controller;
+		[controller release];
+	}
+    [self.navigationController pushViewController:travelDetailViewController animated:YES];
 }
 
 
