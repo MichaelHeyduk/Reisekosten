@@ -33,6 +33,12 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    UIBarButtonItem *anotherButton = [[UIBarButtonItem alloc] initWithTitle:@"Neue Reise" style:UIBarButtonItemStylePlain target:self action:@selector(addNewTravel)];          
+    self.navigationItem.rightBarButtonItem = anotherButton;
+    
+    [anotherButton release];
+    
 }
 
 - (void)viewDidUnload
@@ -84,6 +90,14 @@
 	// NSLog(@"TODO: operate on entry: %@", [resultListEntries objectAtIndex:row]);	
     [self.navigationController pushViewController:[[UIViewController alloc] init] animated:YES];
 	
+}
+
+
+#pragma mark own methods
+
+- (void)addNewTravel
+{
+	NSLog(@"addNewTravel");
 }
 
 
